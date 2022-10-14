@@ -1,10 +1,26 @@
 ---
-import '../styles/global.css';
+import "../styles/global.css";
 const {
-	title = 'Roberth González: Personal Site',
-	description = 'The personal site of Roberth González',
+  title = "Roberth González: Personal Site",
+  description = "The personal site of Roberth González",
 } = Astro.props;
 ---
+
+<!-- Google tag (gtag.js) -->
+<script
+  is:inline
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-SF4GX52T9J"
+></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  gtag("config", "G-SF4GX52T9J");
+</script>
 
 <meta charset="UTF-8" />
 <meta name="description" property="og:description" content={description} />
@@ -16,6 +32,6 @@ const {
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
-	href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&display=swap"
-	rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&display=swap"
+  rel="stylesheet"
 />
