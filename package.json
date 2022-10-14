@@ -1,0 +1,27 @@
+{
+  "name": "roberth.me",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rxb3rth/roberth.me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rxb3rth/roberth.me/issues"
+  },
+  "homepage": "https://github.com/rxb3rth/roberth.me#readme",
+  "dependencies": {
+    "astro": "^1.5.0"
+  }
+}
