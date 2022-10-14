@@ -75,8 +75,15 @@ import Footer from "../components/Footer.astro";
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      @media (min-width: 576px) {
+        .overlay {
+          padding-left: 2rem;
+          padding-right: 2rem;
+        }
       }
 
       .linkedin {
@@ -109,7 +116,7 @@ import Footer from "../components/Footer.astro";
     </style>
   </head>
   <body>
-    <Nav />
+    <Nav client:visible />
     <header class="hero">
       <div class="gradient"></div>
       <div class="gradient2"></div>
