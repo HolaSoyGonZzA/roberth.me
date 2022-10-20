@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap);
+
 /* Global variables */
 :root {
   --c-black: #05091e;
@@ -14,7 +16,7 @@ body {
   margin: 0;
   color: var(--c-white);
   background-color: var(--c-black);
-  font-family: "Inter", "system-ui", sans-serif;
+  font-family: "Fira Code", "system-ui", sans-serif;
 }
 
 * {

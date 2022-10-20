@@ -1,15 +1,24 @@
 .card {
   color: var(--color);
-  padding: 0.8em 1em;
-  border-radius: 0.5rem;
-  border: 1px solid #3f3f46;
+  border: double 3px transparent;
+  background-image: linear-gradient(var(--c-black), var(--c-black)), 
+                    linear-gradient(135deg, #ff80bf, #9580ff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border-radius: 0.375rem;
   cursor: pointer;
+}
+
+.card:hover {
+  transition: all 0.15s cubic-bezier(.4,0,.2,1);
+  transform: scale(1.01);
 }
 
 .card a {
   display: flex;
   flex-direction: column;
   color: var(--c-white);
+  padding: 0.8em 1em;
   text-decoration: none;
 }
 
