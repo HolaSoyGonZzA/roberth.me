@@ -5,12 +5,14 @@ specifiers:
   astro: ^1.5.0
   react: ^18.0.0
   react-dom: ^18.0.0
+  react-simple-typewriter: ^4.0.5
 
 dependencies:
   '@astrojs/react': 1.2.0_biqbaboplfbrettd7655fr4n2y
   astro: 1.5.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-simple-typewriter: 4.0.5_biqbaboplfbrettd7655fr4n2y
 
 packages:
 
@@ -2829,6 +2831,17 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-simple-typewriter/4.0.5_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-2CmVpD1kTifRE8gixr2z+1aYS136ZbAC/UATNzvkzl4tSiThT/ATXH4rOGVwWLTlOWCVnSewObXo/kJlV2HMxw==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react/18.2.0:

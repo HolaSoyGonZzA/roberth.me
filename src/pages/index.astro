@@ -4,6 +4,7 @@ import MainHead from "../components/MainHead.astro";
 import Nav from "../components/Nav.astro";
 import Footer from "../components/Footer.astro";
 
+import { Hero } from "../components/Hero";
 import { Card } from "../components/Card";
 
 const projects = [
@@ -60,104 +61,6 @@ const projects = [
         margin-top: 2em;
         margin-bottom: 2em;
       }
-
-      .hero {
-        position: relative;
-        overflow: hidden;
-        height: calc(50vh - 76px);
-      }
-
-      .subtitle {
-        display: block;
-        font-weight: 400;
-        letter-spacing: -0.0625em;
-      }
-
-      .title {
-        font-size: 48px;
-        line-height: 50px;
-      }
-
-      .img {
-        display: block;
-        width: 100%;
-        height: auto;
-      }
-
-      .gradient,
-      .gradient2 {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(
-          90deg,
-          rgba(2, 0, 36, 1) 0%,
-          rgba(5, 9, 30, 0.7875525210084033) 35%,
-          rgba(0, 0, 0, 0.8239670868347339) 100%
-        );
-        pointer-events: none;
-        mix-blend-mode: screen;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 2;
-      }
-
-      .gradient2 {
-        mix-blend-mode: color;
-        background-size: cover;
-      }
-
-      .overlay {
-        max-width: 80em;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        height: 100%;
-        z-index: 10;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        padding-left: 1rem;
-        padding-right: 1rem;
-      }
-
-      @media (min-width: 576px) {
-        .overlay {
-          padding-left: 2rem;
-          padding-right: 2rem;
-        }
-      }
-
-      .linkedin {
-        position: relative;
-        z-index: 3;
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        padding: 0.25rem 0.5rem;
-        border: none;
-        border-radius: 0.2rem;
-        color: #fff;
-        background-color: #0a66c2;
-        cursor: pointer;
-        transition: background 0.3s ease;
-      }
-      .linkedin:hover {
-        background-color: #004182;
-      }
-      .linkedin svg {
-        margin-right: 0.5rem;
-      }
-      .linkedin span {
-        font-size: 1rem;
-        font-weight: 600;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-          sans-serif;
-      }
-
       .list {
         --min-w: 300px;
         display: grid;
@@ -174,37 +77,7 @@ const projects = [
   </head>
   <body>
     <Nav client:visible />
-    <header class="hero">
-      <div class="gradient"></div>
-      <div class="gradient2"></div>
-      <div class="overlay">
-        <h1 class="title">
-          <small class="subtitle">The personal site of</small>Roberth González
-        </h1>
-        <p class="desc">Building things for the web.</p>
-        <a
-          class="linkedin"
-          href="https://www.linkedin.com/in/roberth-gonzalez/"
-          target="_blank"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            data-supported-dps="24x24"
-            fill="currentColor"
-            class="mercado-match"
-            width="24"
-            height="24"
-            focusable="false"
-          >
-            <path
-              d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
-            ></path>
-          </svg>
-          <span>LinkedIn</span>
-        </a>
-      </div>
-    </header>
+    <Hero />
     <main class="wrapper">
       <section>
         <h2>Projects</h2>
