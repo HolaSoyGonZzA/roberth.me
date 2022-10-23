@@ -23,7 +23,7 @@ export function Header() {
       </a>
       <ul className="social-links">
         {socialLinks.map((link) => (
-          <li className="social-links__item">
+          <li key={link.href} className="social-links__item">
             <a className="link" href={link.href} target="_blank">
               {link.name}
             </a>

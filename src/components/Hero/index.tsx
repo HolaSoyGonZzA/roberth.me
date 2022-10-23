@@ -1,14 +1,27 @@
+import React from "react";
+import { Typewriter } from "react-simple-typewriter";
+
 import "./Hero.scss";
 
 export function Hero() {
   return (
-    <div className="hero">
+    <header className="hero">
       <div className="gradient"></div>
       <div className="gradient2"></div>
       <div className="overlay">
         <h1 className="title">
-          <small className="subtitle">The personal site of</small>Roberth
-          González
+          <small className="subtitle">
+            The{" "}
+            <Typewriter
+              words={["Personal", "Awesome", "Simple"]}
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1500}
+              loop
+            />{" "}
+            site of
+          </small>
+          Roberth González
         </h1>
         <p className="desc">Building things for the web.</p>
         <a
@@ -31,6 +44,6 @@ export function Hero() {
           <span>LinkedIn</span>
         </a>
       </div>
-    </div>
+    </header>
   );
 }
