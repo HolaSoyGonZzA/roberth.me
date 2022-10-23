@@ -1,6 +1,13 @@
 import "./Card.css";
 
-export const Card = ({ name, description, keywords, url }) => {
+type CardProps = {
+  name: string;
+  description: string;
+  keywords: string[];
+  url: string;
+};
+
+export const Card = ({ name, description, keywords, url }: CardProps) => {
   return (
     <div className="card">
       <a href={url} target="_blank" rel="nofollow noopener noreferrer">

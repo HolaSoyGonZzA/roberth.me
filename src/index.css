@@ -42,9 +42,19 @@ img {
   padding-right: 1rem;
 }
 
+.list {
+  --min-w: 300px;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(var(--min-w), 1fr));
+}
+
 @media (min-width: 576px) {
   .wrapper {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .list {
+    --min-w: 440px;
   }
 }

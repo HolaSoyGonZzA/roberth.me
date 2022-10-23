@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+
+.link {
+    color: var(--t-subdue);
+    display: block;
+    text-decoration: none;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--t-active);
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-links__item:not(:last-child) {
+    margin-right: 1rem;
+}
