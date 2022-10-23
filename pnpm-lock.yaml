@@ -1,7 +1,6 @@
 lockfileVersion: 5.4
 
 specifiers:
-<<<<<<< HEAD
   '@types/react': ^18.0.17
   '@types/react-dom': ^18.0.6
   '@vitejs/plugin-react': ^2.1.0
@@ -10,18 +9,10 @@ specifiers:
   sass: ^1.55.0
   typescript: ^4.6.4
   vite: ^3.1.0
-=======
-  '@astrojs/react': ^1.2.0
-  astro: ^1.5.0
-  react: ^18.0.0
-  react-dom: ^18.0.0
-  react-simple-typewriter: ^4.0.5
->>>>>>> 60bf961dc632714c2a4cb04051be3ce7a6eb06e6
 
 dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-simple-typewriter: 4.0.5_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
   '@types/react': 18.0.21
@@ -878,23 +869,10 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-<<<<<<< HEAD
   /react-refresh/0.14.0:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
     engines: {node: '>=0.10.0'}
     dev: true
-=======
-  /react-simple-typewriter/4.0.5_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-2CmVpD1kTifRE8gixr2z+1aYS136ZbAC/UATNzvkzl4tSiThT/ATXH4rOGVwWLTlOWCVnSewObXo/kJlV2HMxw==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      react: '>=18.0.0'
-      react-dom: '>=18.0.0'
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-    dev: false
->>>>>>> 60bf961dc632714c2a4cb04051be3ce7a6eb06e6
 
   /react/18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
