@@ -1,10 +1,10 @@
-import styles from "./Footer.module.scss";
+import "./Footer.scss";
 
 const currentYear = new Date().getFullYear();
 
 export function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className="footer">
       <p>&copy; {currentYear} Roberth González</p>
     </footer>
   );

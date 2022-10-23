@@ -1,6 +1,7 @@
-import { Footer } from "./components/Footer";
-import { Card } from "./components/Card";
 import { Header } from "./components/Header";
+import { Hero } from "./components/Hero";
+import { Card } from "./components/Card";
+import { Footer } from "./components/Footer";
 
 const projects = [
   {
@@ -48,6 +49,7 @@ function App() {
   return (
     <>
       <Header />
+      <Hero />
       <main className="wrapper">
         <section>
           <h2>Projects</h2>
