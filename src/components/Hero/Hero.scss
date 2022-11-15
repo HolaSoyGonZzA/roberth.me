@@ -1,23 +1,25 @@
 .wrapper {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 .hero {
     position: relative;
     overflow: hidden;
-    height: calc(50vh - 76px);
+    height: calc(60vh - 76px);
 }
 
 .subtitle {
     display: block;
     font-weight: 400;
     letter-spacing: -0.0625em;
+    font-size: 1rem;
 }
 
 .title {
     font-size: 48px;
     line-height: 50px;
+    margin: 0;
 }
 
 .img {

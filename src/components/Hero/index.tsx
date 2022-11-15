@@ -13,10 +13,10 @@ export function Hero() {
           <small className="subtitle">
             The{" "}
             <Typewriter
-              words={["Personal", "Awesome", "Simple"]}
-              typeSpeed={70}
+              words={["personal", "awesome", "simple"]}
+              typeSpeed={100}
               deleteSpeed={50}
-              delaySpeed={1500}
+              delaySpeed={2500}
               loop
             />{" "}
             site of

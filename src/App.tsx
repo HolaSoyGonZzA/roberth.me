@@ -21,7 +21,7 @@ const projects = [
     url: "https://github.com/HolaSoyGonZzA/buzz-notify",
     name: "buzz-notify",
     description: "Small and Clean JavaScript Toast Notifications",
-    keywords: ["notification", "toast", "accessible", "small"],
+    keywords: ["notification", "toast", "accessible"],
   },
   {
     url: "https://github.com/HolaSoyGonZzA/lsdb",
