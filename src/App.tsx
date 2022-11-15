@@ -18,13 +18,13 @@ const projects = [
     keywords: ["vscode", "bulma", "css", "class"],
   },
   {
-    url: "https://github.com/rxb3rth/buzz-notify",
+    url: "https://github.com/HolaSoyGonZzA/buzz-notify",
     name: "buzz-notify",
     description: "Small and Clean JavaScript Toast Notifications",
     keywords: ["notification", "toast", "accessible", "small"],
   },
   {
-    url: "https://github.com/rxb3rth/lsdb",
+    url: "https://github.com/HolaSoyGonZzA/lsdb",
     name: "lsdb",
     description: "✨Database powered by localStorage",
     keywords: ["database", "localStorage", "storage"],

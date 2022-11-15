@@ -3,11 +3,11 @@ import "./Header.scss";
 const socialLinks = [
   {
     name: "twitter",
-    href: "https://twitter.com/rxb3rth",
+    href: "https://twitter.com/HolaSoyGonZzA",
   },
   {
     name: "github",
-    href: "https://github.com/rxb3rth",
+    href: "https://github.com/HolaSoyGonZzA",
   },
   {
     name: "linkedin",
